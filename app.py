@@ -15,7 +15,7 @@ TWILIO_ACCOUNT_SID = os.getenv('TWILIO_ACCOUNT_SID', 'AYV8NsMDSAw6AMRbjq5qtVhJpi
 TWILIO_AUTH_TOKEN = os.getenv('TWILIO_AUTH_TOKEN', '6660839698d513898ebe2e7f6c739b7a')
 TWILIO_PHONE_NUMBER = os.getenv('TWILIO_PHONE_NUMBER', '+17249481504')
 
-# Print credentials to verify (remove these in production)
+# Print credentials to verify 
 print(f'TWILIO_ACCOUNT_SID: "{TWILIO_ACCOUNT_SID}"')
 print(f'TWILIO_AUTH_TOKEN: "{TWILIO_AUTH_TOKEN}"')
 print(f'TWILIO_PHONE_NUMBER: "{TWILIO_PHONE_NUMBER}"')
